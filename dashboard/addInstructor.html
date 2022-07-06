@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="courses-hub e-learning website">
+  <link rel="shortcut icon" href="template/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="template/css/owl.carousel.css">
+  <link rel="stylesheet" href="template/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="template/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/css/animate.css">
+  <link rel="stylesheet" href="template/css/style.css">
+  <title>Courses hub | Dashboard</title>
+</head>
+
+<body>
+
+  <!-- top bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 text-right">
+          <div class="notify">
+            <span>
+              1
+            </span>
+            <button type="button">
+              <i class="fa fa-bell" aria-hidden="true"></i>
+            </button>
+            <div class="notify-menu text-left">
+              <b>Notifications <small>(1)
+                </small></b>
+              <hr style="margin-bottom: 10px;margin-top: 0px;">
+
+              <div id="notify-container">
+
+                <div>
+                  <h5>
+                    asmaa saad
+                  </h5>
+                  <p>
+                    lorem ipsum
+                  </p>
+                  <hr>
+                </div>
+
+                <div class="text-center"><a href="contactUs.html" style="text-decoration:underline">View all</a></div>
+              </div>
+            </div>
+          </div>
+          <a href="index.html" class="text-right" style="display:inline-block;">
+            <img src="template/images/logo.png" style="width: 100px;" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bars">
+    <img src="template/images/bars.png" class="open" alt="">
+    <img src="template/images/bars.png" class="closenav" alt="">
+  </div>
+
+  <!-- side navbar -->
+  <div class="side-navbar">
+    <div class="user">
+      <img src="template/images/user.png" alt="">
+      <b>Asmaa saad</b>
+    </div>
+    <hr>
+    <div class="links">
+      <ul class="list-unstyled">
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li data-menu="one">
+          <a><i class="fas fa-pen"></i> About <i class="fas fa-angle-down"></i></a>
+          <div class="drop-link one">
+            <a href="addNew.html">Add new</a>
+            <a>View</a>
+          </div>
+        </li>
+        <li data-menu="two">
+          <a><i class="fas fa-book-reader"></i> Courses <i class="fas fa-angle-down"></i></a>
+          <div class="drop-link two">
+            <a href="addCourse.html">Add course</a>
+            <a>View courses</a>
+          </div>
+        </li>
+        <li data-menu="eight">
+          <a><i class="fas fa-align-center"></i> Main categories <i class="fas fa-angle-down"></i> </a>
+          <div class="drop-link eight">
+            <a href="addMainCategory.html">Add main</a>
+            <a>Main categories</a>
+          </div>
+        </li>
+        <li data-menu="three">
+          <a><i class="fas fa-th"></i> Categories <i class="fas fa-angle-down"></i> </a>
+          <div class="drop-link three">
+            <a href="addCategory.html">Add category</a>
+            <a>View categories</a>
+          </div>
+        </li>
+
+        <li data-menu="four">
+          <a><i class="fas fa-cogs"></i> Servies <i class="fas fa-angle-down"></i></a>
+          <div class="drop-link four">
+            <a href="addService.html">Add service</a>
+            <a>View services</a>
+          </div>
+        </li>
+
+        <li data-menu="five">
+          <a><i class="fas fa-user"></i> Instructors <i class="fas fa-angle-down"></i></a>
+          <div class="drop-link five">
+            <a href="addInstructor.html">Add instructor</a>
+            <a>View instructors</a>
+          </div>
+        </li>
+        <li data-menu="seven">
+          <a><i class="fas fa-users"></i> Testimonials <i class="fas fa-angle-down"></i></a>
+          <div class="drop-link seven">
+            <a href="addTestimonial.html">Add testimonial</a>
+            <a>View testimonials</a>
+          </div>
+        </li>
+        <li><a href="contactUs.html"><i class="fas fa-envelope"></i> Contact us</a></li>
+        <li>
+          <hr>
+        </li>
+        <li><a><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        <li><a><i class="fas fa-cog"></i> Settings</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content-wrapp">
+      <!-- add instructor -->
+      <div class="add pd">
+        <h4 class="title"><i class="fas fa-caret-right"></i> Add instructor</h4>
+        <form action="addInstructor.html" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <div class="col-md-12">
+              <label>Name</label>
+              <input type="text" name="name">
+            </div>
+            <div class="col-md-12">
+              <label>Job</label>
+              <input type="text" name="job">
+            </div>
+            <div class="col-md-6">
+              <label>Phone</label>
+              <input type="number" name="phone">
+            </div>
+            <div class="col-md-6">
+              <label>Email</label>
+              <input type="email" name="email">
+            </div>
+            <div class="col-md-12">
+              <label> Upload image </label>
+              <div class='file file--upload'>
+                <label for='input-file' class="no-label">
+                  <i class="fas fa-upload"></i> Upload file
+                </label>
+                <input id='input-file' name="file" type='file' />
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="submit"> Save <i class="fas fa-check" style="font-size:small;"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+  <script src="template/js/bootstrap.min.js"></script>
+  <script src="template/js/owl.carousel.js"></script>
+  <script src="template/js/wow.min.js"></script>
+  <script src="template/js/main.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
